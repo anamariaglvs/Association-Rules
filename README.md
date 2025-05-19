@@ -1,3 +1,5 @@
+![Rplot09](https://github.com/user-attachments/assets/72631340-5c4e-47ea-9727-51905fcb7352)
+![Rplot08](https://github.com/user-attachments/assets/9d85e5ed-5076-4adc-a0c3-3f772f82ee01)
 # Association-Rules
 This project applies Association Rule Learning to retail2.csv, a market basket dataset. It identifies frequent itemsets and generates rules by computing support, confidence, and lift—using base R and loops only, without external libraries like arules.
 
