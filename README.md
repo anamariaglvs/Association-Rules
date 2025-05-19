@@ -1,5 +1,4 @@
-![Rplot09](https://github.com/user-attachments/assets/72631340-5c4e-47ea-9727-51905fcb7352)
-![Rplot08](https://github.com/user-attachments/assets/9d85e5ed-5076-4adc-a0c3-3f772f82ee01)
+
 # Association-Rules
 This project applies Association Rule Learning to retail2.csv, a market basket dataset. It identifies frequent itemsets and generates rules by computing support, confidence, and lift—using base R and loops only, without external libraries like arules.
 
@@ -34,15 +33,5 @@ inspect(head(top.lift, 10))
 #honey and whole milk, have a confidence of 73%. Meaning that Whole Milk is purchased when honey is purchased
 #honey and whole mlik support: is minor than 1% so is not a common rule 
 
-#support =0.6 and minimal confidence= 0.9
-data("Adult")
-inspect(head(Adult, 3)) #show first 3 entries
-
-#
-rules_adult <- apriori(Adult, parameter = list(supp = 0.6, conf = 0.9, target = "rules"))
-summary(rules_adult) #summary of the association rules
-inspect(rules_adult[1:10]) #first 10 identified interesting rules
-top.lift <- sort(rules_adult, decreasing = TRUE, na.last = NA, by = "lift") #sort by lift
-inspect(head(top.lift, 10))
-
-#race=white and native country US: lif of 1.02 It indicates this two things are independent. 
+![Rplot09](https://github.com/user-attachments/assets/72631340-5c4e-47ea-9727-51905fcb7352)
+![Rplot08](https://github.com/user-attachments/assets/9d85e5ed-5076-4adc-a0c3-3f772f82ee01)
