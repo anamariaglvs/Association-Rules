@@ -33,5 +33,7 @@ inspect(head(top.lift, 10))
 #honey and whole milk, have a confidence of 73%. Meaning that Whole Milk is purchased when honey is purchased
 #honey and whole mlik support: is minor than 1% so is not a common rule 
 
-![Rplot09](https://github.com/user-attachments/assets/72631340-5c4e-47ea-9727-51905fcb7352)
+
+
 ![Rplot08](https://github.com/user-attachments/assets/9d85e5ed-5076-4adc-a0c3-3f772f82ee01)
+![Rplot](https://github.com/user-attachments/assets/8df22401-a9f3-4607-94ce-63531d36d62b)
