@@ -40,6 +40,7 @@ inspect(head(top.lift, 10))
 
 
 🧠 Why is this project valuable?
+
 ✅ 1. Business Insight: What People Buy Together
 -You uncover shopping patterns—like "people who buy honey often buy whole milk." These insights are gold for:
 -Product placement (e.g., placing related items near each other)
